@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Album } from "./_types/Album";
+import { Artist } from "./_types/Artist";
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
 				<div className="flex flex-wrap mt-2">
 					<div className="basis-1/3">
 						<div className="m-1 p-1 artist">
-							<h4>NOM DE L'ARTISTE</h4>
+							<h4>NOM DE ARTISTE</h4>
 							<img src="images/bust.png" alt="NOM DE L'ARTISTE" />
 							<a><button className="lightButton mt-1 mr-1">Concerts</button></a>
 							<a><button className="lightButton mt-1">Albums</button></a>
